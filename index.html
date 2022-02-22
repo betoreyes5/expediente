@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style/Estilo.css">
+    <link rel="stylesheet" href="./Style/Estilo.css">    
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <title>Expediente RH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <title>Expediente RH</title>
+   
 </head>
 <body>
 
@@ -28,21 +28,40 @@
 
           <div class="EXPEDIENTE">
 
-
+            <div class="card-container">
+             
+              <img class="round" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg" alt="user" />
+              <h3>Avenida 5</h3>
+              <h6>Cuida de Mexico</h6>
+              <p>Licenciatura en ingenieria</p>
+              <br>
+              <div class="buttons">
+                <button class="primary">
+                  Mensaje
+                </button>              
+              </div>
+             
+            </div> 
 
 
           </div>
         </div>
         <div class="i2">
           <div class="MENU">
-            <header>
-
-                <a id="header-menu-trigger" href="#0">
-                    <span class="header-menu-text">::Menu </span>
-                     <span class="header-menu-icon"></span>
-               </a> 
-
-                        
+            
+            <header class="main-header">
+              <nav id="nav" class="main-nav">
+                <div class="nav-links">
+                  <a class="link-item" href="#">Acerca de Mi</a>
+                  <a class="link-item" href="#">Mi Experiencia</a>
+                  <a class="link-item" href="#">Ticket</a>                 
+                </div>
+              </nav>
+              <button id="button-menu" class="button-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
             </header>
              
           </div>
@@ -133,6 +152,8 @@
         </div>
 
       </div>
+
+      <script type="text/javascript" src="./Js/acciones.js"></script>
 
 </body>
 </html>
